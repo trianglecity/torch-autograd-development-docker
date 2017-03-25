@@ -3,8 +3,8 @@ torch = require 'torch'
 autograd = require 'autograd'
 dist = require 'distributions'
 
-shuffeled_index = torch.randperm(200) 
--- print(shuffeled_index) -- 1 to 200
+shuffled_index = torch.randperm(200) 
+-- print(shuffled_index) -- 1 to 200
 
 mean = torch.Tensor({-5, -5})
 covariance = torch.eye(2)
@@ -33,7 +33,7 @@ x = torch.Tensor(2,200)
 y = torch.zeros(200)
 
 for i = 1,200 do
-	index = shuffeled_index[i]
+	index = shuffled_index[i]
 	
 	x[1][i] = x_in_order[1][index]
 	x[2][i] = x_in_order[2][index]
