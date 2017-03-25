@@ -7,7 +7,7 @@ NOTICE1: The toy (classification) example is based on (theano) http://colinraffe
 
 
 
-Pleas follow the instructions to run the toy example.
+Please follow the instructions to run the toy example.
 
 [1] download (or git clone) this source code folder.
 
